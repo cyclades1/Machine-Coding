@@ -33,8 +33,10 @@ class Board:
         return False
 
     def check_digonal(self, x, y):
+        if not(x==y or x+y==N-1):
+            return False
         cur= self.board[x][y]
-        i, j = x,y
+        i, j = 0,0
         cnt = 0
         while self.board[i][j]==cur:
             i=(i+1)%N
@@ -42,10 +44,10 @@ class Board:
             cnt+=1
             if cnt ==N:
                 return True
-        i, j = x,y
+        i, j = 0,N-1
         cnt = 0
         while self.board[i][j]==cur:
-            i=(i-1)%N
+            i=(i+1)%N
             j=(j-1)%N
             cnt+=1
             if cnt ==N:
@@ -54,6 +56,7 @@ class Board:
 
     def update_status(self, x, y):
         fl = self.check_col(x,y) or self.check_row(x,y) or self.check_digonal(x,y) 
+        
         if fl:
             self.winner = self.board[x][y]
             self.status =  self.get_winner() + " won the Game."

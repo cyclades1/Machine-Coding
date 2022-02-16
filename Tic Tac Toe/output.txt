@@ -2,30 +2,24 @@
 - - - 
 - - - 
 - - - 
-- - X 
 - - - 
-- O - 
-- - X 
-- - - 
-- O - 
-- X X 
-- - - 
-- O - 
-O X X 
-- - - 
-X O - 
-O X X 
-- - - 
-X O - 
-O X X 
+- X - 
+h
 - - O 
-X O - 
-O X X 
-- X O 
-X O - 
-O X X 
-O X O 
-X O X 
-O X X 
-O X O 
-Game over
+- - - 
+- X - 
+h
+X - O 
+- - - 
+- X - 
+h
+X - O 
+- O - 
+- X - 
+X X O 
+- O - 
+- X - 
+X X O 
+- O - 
+O X - 
+Sagar won the Game.
