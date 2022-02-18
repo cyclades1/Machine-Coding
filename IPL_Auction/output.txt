@@ -1,0 +1,19 @@
+negative number can not be base price
+player does not exist
+rohit sold to  rcb
+name: rcb, players = ['rohit'], wallet : 4480
+name: mi, players = [], wallet : 5000
+name: rohit, status : Sold, team: rcb, price: 520
+name: dhoni, status : Draft, team: N/A, price: N/A
+name: raina, status : Draft, team: N/A, price: N/A
+rcb : 
+rohit 500
+rohit 520
+mi : 
+rohit 510
+virat : 
+Player does not exits
+rohit : 
+rcb 500
+mi 510
+rcb 520

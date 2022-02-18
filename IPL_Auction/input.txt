@@ -1,0 +1,21 @@
+createplayer virat -500
+createplayer rohit 400
+createplayer dhoni 600
+createplayer raina 300
+createteam rcb 5000
+createteam mi 5000
+startauction virat
+createbid rcb 500
+endauction
+startauction rohit
+createbid rcb  500
+createbid mi  510
+createbid rcb  520
+endauction
+teamoverview
+playeroverview
+bidhistory team rcb
+bidhistory team mi
+bidhistory player virat
+bidhistory player rohit
+exit
